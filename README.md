@@ -16,7 +16,6 @@ This script is a Bash script designed to manage orphaned packages in an Arch Lin
 
 3. **Execution Flow**:
    
-   - The script starts by calling the `main` function.
    - It prompts the user for their password to run commands with `sudo`.
    - It checks for the lock file and tries to remove it if it exists.
    - It retrieves the list of orphaned packages and checks if any exist.
